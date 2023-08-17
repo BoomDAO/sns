@@ -1,0 +1,22 @@
+{
+  "governance_canister_id": "xomae-vyaaa-aaaaq-aabhq-cai",
+  "index_canister_id": "v5tde-5aaaa-aaaaq-aabja-cai",
+  "ledger_canister_id": "vtrom-gqaaa-aaaaq-aabia-cai",
+  "root_canister_id": "xjngq-yaaaa-aaaaq-aabha-cai",
+  "sns_governance": {
+    "ic": "xomae-vyaaa-aaaaq-aabhq-cai"
+  },
+  "sns_index": {
+    "ic": "v5tde-5aaaa-aaaaq-aabja-cai"
+  },
+  "sns_ledger": {
+    "ic": "vtrom-gqaaa-aaaaq-aabia-cai"
+  },
+  "sns_root": {
+    "ic": "xjngq-yaaaa-aaaaq-aabha-cai"
+  },
+  "sns_swap": {
+    "ic": "vuqiy-liaaa-aaaaq-aabiq-cai"
+  },
+  "swap_canister_id": "vuqiy-liaaa-aaaaq-aabiq-cai"
+}

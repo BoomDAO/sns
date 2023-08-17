@@ -1,0 +1,9 @@
+[submodule "world-engine"]
+	path = world-engine
+	url = https://github.com/BoomDAO/world-engine.git
+[submodule "game-launcher"]
+	path = game-launcher
+	url = https://github.com/BoomDAO/game-launcher.git
+[submodule "examples"]
+	path = examples
+	url = https://github.com/BoomDAO/examples.git

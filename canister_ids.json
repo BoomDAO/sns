@@ -1,0 +1,44 @@
+{
+    "sns_governance": {
+        "ic": "xomae-vyaaa-aaaaq-aabhq-cai"
+    },
+    "sns_index": {
+        "ic": "v5tde-5aaaa-aaaaq-aabja-cai"
+    },
+    "sns_ledger": {
+        "ic": "vtrom-gqaaa-aaaaq-aabia-cai"
+    },
+    "sns_root": {
+        "ic": "xjngq-yaaaa-aaaaq-aabha-cai"
+    },
+    "sns_swap": {
+        "ic": "vuqiy-liaaa-aaaaq-aabiq-cai"
+    },
+    "game-launcher": {
+        "ic": "awcae-maaaa-aaaam-abmyq-cai"
+    },
+    "game_deployer": {
+        "ic": "6rvbl-uqaaa-aaaal-ab24a-cai"
+    },
+    "nfts_deployer": {
+        "ic": "j474s-uqaaa-aaaap-abf6q-cai"
+    },
+    "token_deployer": {
+        "ic": "jv4xo-cyaaa-aaaap-abf7a-cai"
+    },
+    "world_deployer": {
+        "ic": "js5r2-paaaa-aaaap-abf7q-cai"
+    },
+    "PaymentHub": {
+        "ic": "5hr3g-hqaaa-aaaap-abbxa-cai"
+    },
+    "StakingHub": {
+        "ic": "jozll-yaaaa-aaaap-abf5q-cai"
+    },
+    "WorldHub": {
+        "ic": "j362g-ziaaa-aaaap-abf6a-cai"
+    },
+    "login-webpage": {
+        "ic": "7p3gx-jaaaa-aaaal-acbda-cai"
+    }
+}
