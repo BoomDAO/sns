@@ -1,2 +1,1 @@
-# sns
-BOOM DAO SNS 
+
