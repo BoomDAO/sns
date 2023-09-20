@@ -1,8 +1,8 @@
-quill sns make-proposal fa98d03dc1ef9eb4db04f8ce1ced50b7fdd70143e575a507f89775f69f66beac --proposal (record {
-  title="Extend Voting Period";
-  url="https://boomdao.xyz/";
-  summary="This proposal extends the 24 hour voting period to 3 days.";
-  action=opt variant {
+quill sns --canister-ids-file ./sns_canister_ids.json --pem-file $PEM_FILE make-proposal  --proposal "(record {
+  title=\"Extend Voting Period\";
+  url=\"https://boomdao.xyz/\";
+  summary=\"This proposal extends the 24 hour voting period for proposals to be 3 days.\";
+  action = opt variant {
     ManageNervousSystemParameters = record {
       default_followees = null;
       max_dissolve_delay_seconds = null;
@@ -15,7 +15,7 @@ quill sns make-proposal fa98d03dc1ef9eb4db04f8ce1ced50b7fdd70143e575a507f89775f6
       neuron_minimum_dissolve_delay_to_vote_seconds = null;
       reject_cost_e8s = null;
       max_proposals_to_keep_per_action = null;
-      wait_for_quiet_deadline_increase_seconds = opt (43_200 : nat64);
+      wait_for_quiet_deadline_increase_seconds = opt (86_400 : nat64);
       max_number_of_neurons = null;
       transaction_fee_e8s = null;
       max_number_of_proposals_with_ballots = null;
@@ -25,4 +25,6 @@ quill sns make-proposal fa98d03dc1ef9eb4db04f8ce1ced50b7fdd70143e575a507f89775f6
       max_number_of_principals_per_neuron = null;
     }
   };
-})
+})" $DEVELOPER_NEURON_ID > extend_voting_period.json
+
+quill send extend_voting_period.json
