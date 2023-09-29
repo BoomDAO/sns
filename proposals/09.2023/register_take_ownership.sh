@@ -1,11 +1,9 @@
 quill sns --canister-ids-file ./sns_canister_ids.json --pem-file $PEM_FILE make-proposal $DEVELOPER_NEURON_ID --proposal '(
     record {
-        title = "Add custom SNS function for Commit permission of asset canister upgrades";          
+        title = "Add a new custom SNS function";          
         url = "https://boomdao.xyz/";        
-        summary = "Adding custom function take_ownership to Game Launcher asset canister so that the SNS governance canister can give itself permission to commit asset canister upgrades. 
-This take_ownership function will be executed via proposal to grant the SNS governance canister Commit permissions.
-
-More info on upgrading asset canisters under SNS control can be found here: https://internetcomputer.org/docs/current/developer-docs/integrations/sns/managing/sns-asset-canister";
+        summary = "Adding custom function take_ownership to Game Launcher asset canister. 
+        This take_ownership function will be executed via proposal to grant SNS governance canister commit permissions.";
         action = opt variant {
             AddGenericNervousSystemFunction = record {
                 id = 1000 : nat64;
