@@ -5,8 +5,7 @@ quill sns --canister-ids-file ./sns_canister_ids.json  --pem-file ${PEM_FILE}  m
   --title "Upgrade WorldHub canister"  \
   --summary "This proposal upgrades the WorldHub canister of World Protocol. 
     Proposed changes, features or fixes : 
-    1. Add a function to WorldHub canister that allows for upgrading WASM of UserNode canisters in the World Protocol.
-    2. WorldHub canister can now upgrade all existing UserNode canisters to latest version via SNS proposal to make them compatible with latest version of World canisters." \
+    1. Bug fix in **upgrade_usernodes** SNS custom endpoint." \
   --url "https://boomdao.xyz"  \
   --target-canister-id "j362g-ziaaa-aaaap-abf6a-cai" \
   --wasm-path "WorldHub.wasm" \
