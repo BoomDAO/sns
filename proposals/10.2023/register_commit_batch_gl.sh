@@ -7,12 +7,12 @@ quill sns --canister-ids-file ./sns_canister_ids.json --pem-file $PEM_FILE make-
         url = "https://boomdao.xyz/";        
         summary = "Adding custom function **commit_proposed_batch** to Game Launcher asset canister. 
         This **commit_proposed_batch** function will be executed via proposal to commit changes to the Game Launcher asset canister.
-        
+
         For more information regarding SNS Asset canisters upgrade, check here : https://internetcomputer.org/docs/current/developer-docs/integrations/sns/managing/sns-asset-canister";
         action = opt variant {
             AddGenericNervousSystemFunction = record {
-                id = 1008 : nat64;
-                name = "Call commit_proposed_batch in Game Launcher asset canister";
+                id = 1010 : nat64;
+                name = "Game Launcher asset canister function commit_proposed_batch";
                 description = opt "Call commit_proposed_batch function to commit changes to upgrade Game Launcher asset canister";
                 function_type = opt variant { 
                     GenericNervousSystemFunction = record { 
