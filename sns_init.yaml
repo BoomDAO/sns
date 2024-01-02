@@ -261,127 +261,127 @@ initial_token_distribution:
           dissolve_delay_seconds: 63072000 # 2 years
           vesting_period_seconds: 0
 
-        - controller: b7k54-w6cqs-2uvzb-5c7fk-rqpzu-g6ihx-o5vvj-vhtey-ufk3z-7ssck-zae # Tommy Mallow's Personal Beacon neuron
+        - controller: b7k54-w6cqs-2uvzb-5c7fk-rqpzu-g6ihx-o5vvj-vhtey-ufk3z-7ssck-zae # Tommy's Personal Beacon neuron
           stake_e8s: 500000000 # 5 BOOM tokens which is the minimum stake
           memo: 0
           dissolve_delay_seconds: 63072000 # 24 months
           vesting_period_seconds: 0 # no vesting
-        - controller: b7k54-w6cqs-2uvzb-5c7fk-rqpzu-g6ihx-o5vvj-vhtey-ufk3z-7ssck-zae # Tommy Mallow's Month 1 neurons
+        - controller: b7k54-w6cqs-2uvzb-5c7fk-rqpzu-g6ihx-o5vvj-vhtey-ufk3z-7ssck-zae # Tommy's Month 1 neurons
           stake_e8s: 208333300000000 # Month 1 Vesting
           memo: 1
           dissolve_delay_seconds: 15768000 # 6 months
           vesting_period_seconds: 2628000 # 1 month
-        - controller: b7k54-w6cqs-2uvzb-5c7fk-rqpzu-g6ihx-o5vvj-vhtey-ufk3z-7ssck-zae # Tommy Mallow's Month 2 neurons
+        - controller: b7k54-w6cqs-2uvzb-5c7fk-rqpzu-g6ihx-o5vvj-vhtey-ufk3z-7ssck-zae # Tommy's Month 2 neurons
           stake_e8s: 208333300000000 # Month 2 Vesting
           memo: 2
           dissolve_delay_seconds: 15768000 # 6 months
           vesting_period_seconds: 5256000 # 2 month
-        - controller: b7k54-w6cqs-2uvzb-5c7fk-rqpzu-g6ihx-o5vvj-vhtey-ufk3z-7ssck-zae # Tommy Mallow's Month 3 neurons
+        - controller: b7k54-w6cqs-2uvzb-5c7fk-rqpzu-g6ihx-o5vvj-vhtey-ufk3z-7ssck-zae # Tommy's Month 3 neurons
           stake_e8s: 208333300000000 # Month 3 Vesting
           memo: 3
           dissolve_delay_seconds: 15768000 # 6 months
           vesting_period_seconds: 7884000 # 3 month
-        - controller: b7k54-w6cqs-2uvzb-5c7fk-rqpzu-g6ihx-o5vvj-vhtey-ufk3z-7ssck-zae # Tommy Mallow's Month 4 neurons
+        - controller: b7k54-w6cqs-2uvzb-5c7fk-rqpzu-g6ihx-o5vvj-vhtey-ufk3z-7ssck-zae # Tommy's Month 4 neurons
           stake_e8s: 208333300000000 # Month 4 Vesting
           memo: 4
           dissolve_delay_seconds: 15768000 # 6 months
           vesting_period_seconds: 10512000 # 4 month
-        - controller: b7k54-w6cqs-2uvzb-5c7fk-rqpzu-g6ihx-o5vvj-vhtey-ufk3z-7ssck-zae # Tommy Mallow's Month 5 neurons
+        - controller: b7k54-w6cqs-2uvzb-5c7fk-rqpzu-g6ihx-o5vvj-vhtey-ufk3z-7ssck-zae # Tommy's Month 5 neurons
           stake_e8s: 208333300000000 # Month 5 Vesting
           memo: 5
           dissolve_delay_seconds: 15768000 # 6 months
           vesting_period_seconds: 13140000 # 5 month
-        - controller: b7k54-w6cqs-2uvzb-5c7fk-rqpzu-g6ihx-o5vvj-vhtey-ufk3z-7ssck-zae # Tommy Mallow's Month 6 neurons
+        - controller: b7k54-w6cqs-2uvzb-5c7fk-rqpzu-g6ihx-o5vvj-vhtey-ufk3z-7ssck-zae # Tommy's Month 6 neurons
           stake_e8s: 208333300000000 # Month 6 Vesting
           memo: 6
           dissolve_delay_seconds: 15768000 # 6 months
           vesting_period_seconds: 15768000 # 6 month
-        - controller: b7k54-w6cqs-2uvzb-5c7fk-rqpzu-g6ihx-o5vvj-vhtey-ufk3z-7ssck-zae # Tommy Mallow's Month 7 neurons
+        - controller: b7k54-w6cqs-2uvzb-5c7fk-rqpzu-g6ihx-o5vvj-vhtey-ufk3z-7ssck-zae # Tommy's Month 7 neurons
           stake_e8s: 208333300000000 # Month 7 Vesting
           memo: 7
           dissolve_delay_seconds: 15768000 # 6 months
           vesting_period_seconds: 18396000 # 7 month
-        - controller: b7k54-w6cqs-2uvzb-5c7fk-rqpzu-g6ihx-o5vvj-vhtey-ufk3z-7ssck-zae # Tommy Mallow's Month 8 neurons
+        - controller: b7k54-w6cqs-2uvzb-5c7fk-rqpzu-g6ihx-o5vvj-vhtey-ufk3z-7ssck-zae # Tommy's Month 8 neurons
           stake_e8s: 208333300000000 # Month 8 Vesting
           memo: 8
           dissolve_delay_seconds: 15768000 # 6 months
           vesting_period_seconds: 21024000 # 8 month
-        - controller: b7k54-w6cqs-2uvzb-5c7fk-rqpzu-g6ihx-o5vvj-vhtey-ufk3z-7ssck-zae # Tommy Mallow's Month 9 neurons
+        - controller: b7k54-w6cqs-2uvzb-5c7fk-rqpzu-g6ihx-o5vvj-vhtey-ufk3z-7ssck-zae # Tommy's Month 9 neurons
           stake_e8s: 208333300000000 # Month 9 Vesting
           memo: 9
           dissolve_delay_seconds: 15768000 # 6 months
           vesting_period_seconds: 23652000 # 9 month
-        - controller: b7k54-w6cqs-2uvzb-5c7fk-rqpzu-g6ihx-o5vvj-vhtey-ufk3z-7ssck-zae # Tommy Mallow's Month 10 neurons
+        - controller: b7k54-w6cqs-2uvzb-5c7fk-rqpzu-g6ihx-o5vvj-vhtey-ufk3z-7ssck-zae # Tommy's Month 10 neurons
           stake_e8s: 208333300000000 # Month 10 Vesting
           memo: 10
           dissolve_delay_seconds: 15768000 # 6 months
           vesting_period_seconds: 26280000 # 10 month
-        - controller: b7k54-w6cqs-2uvzb-5c7fk-rqpzu-g6ihx-o5vvj-vhtey-ufk3z-7ssck-zae # Tommy Mallow's Month 11 neurons
+        - controller: b7k54-w6cqs-2uvzb-5c7fk-rqpzu-g6ihx-o5vvj-vhtey-ufk3z-7ssck-zae # Tommy's Month 11 neurons
           stake_e8s: 208333300000000 # Month 11 Vesting
           memo: 11
           dissolve_delay_seconds: 15768000 # 6 months
           vesting_period_seconds: 28908000 # 11 month
-        - controller: b7k54-w6cqs-2uvzb-5c7fk-rqpzu-g6ihx-o5vvj-vhtey-ufk3z-7ssck-zae # Tommy Mallow's Month 12 neurons
+        - controller: b7k54-w6cqs-2uvzb-5c7fk-rqpzu-g6ihx-o5vvj-vhtey-ufk3z-7ssck-zae # Tommy's Month 12 neurons
           stake_e8s: 208333300000000 # Month 12 Vesting
           memo: 12
           dissolve_delay_seconds: 15768000 # 6 months
           vesting_period_seconds: 31536000 # 12 month
-        - controller: b7k54-w6cqs-2uvzb-5c7fk-rqpzu-g6ihx-o5vvj-vhtey-ufk3z-7ssck-zae # Tommy Mallow's Month 13 neurons
+        - controller: b7k54-w6cqs-2uvzb-5c7fk-rqpzu-g6ihx-o5vvj-vhtey-ufk3z-7ssck-zae # Tommy's Month 13 neurons
           stake_e8s: 208333300000000 # Month 13 Vesting
           memo: 13
           dissolve_delay_seconds: 15768000 # 6 months
           vesting_period_seconds: 34164000 # 13 month
-        - controller: b7k54-w6cqs-2uvzb-5c7fk-rqpzu-g6ihx-o5vvj-vhtey-ufk3z-7ssck-zae # Tommy Mallow's Month 14 neurons
+        - controller: b7k54-w6cqs-2uvzb-5c7fk-rqpzu-g6ihx-o5vvj-vhtey-ufk3z-7ssck-zae # Tommy's Month 14 neurons
           stake_e8s: 208333300000000 # Month 14 Vesting
           memo: 14
           dissolve_delay_seconds: 15768000 # 6 months
           vesting_period_seconds: 36792000 # 14 month
-        - controller: b7k54-w6cqs-2uvzb-5c7fk-rqpzu-g6ihx-o5vvj-vhtey-ufk3z-7ssck-zae # Tommy Mallow's Month 15 neurons
+        - controller: b7k54-w6cqs-2uvzb-5c7fk-rqpzu-g6ihx-o5vvj-vhtey-ufk3z-7ssck-zae # Tommy's Month 15 neurons
           stake_e8s: 208333300000000 # Month 15 Vesting
           memo: 15
           dissolve_delay_seconds: 15768000 # 6 months
           vesting_period_seconds: 39420000 # 15 month
-        - controller: b7k54-w6cqs-2uvzb-5c7fk-rqpzu-g6ihx-o5vvj-vhtey-ufk3z-7ssck-zae # Tommy Mallow's Month 16 neurons
+        - controller: b7k54-w6cqs-2uvzb-5c7fk-rqpzu-g6ihx-o5vvj-vhtey-ufk3z-7ssck-zae # Tommy's Month 16 neurons
           stake_e8s: 208333300000000 # Month 16 Vesting
           memo: 16
           dissolve_delay_seconds: 15768000 # 6 months
           vesting_period_seconds: 42048000 # 16 month
-        - controller: b7k54-w6cqs-2uvzb-5c7fk-rqpzu-g6ihx-o5vvj-vhtey-ufk3z-7ssck-zae # Tommy Mallow's Month 17 neurons
+        - controller: b7k54-w6cqs-2uvzb-5c7fk-rqpzu-g6ihx-o5vvj-vhtey-ufk3z-7ssck-zae # Tommy's Month 17 neurons
           stake_e8s: 208333300000000 # Month 17 Vesting
           memo: 17
           dissolve_delay_seconds: 15768000 # 6 months
           vesting_period_seconds: 44676000 # 17 month
-        - controller: b7k54-w6cqs-2uvzb-5c7fk-rqpzu-g6ihx-o5vvj-vhtey-ufk3z-7ssck-zae # Tommy Mallow's Month 18 neurons
+        - controller: b7k54-w6cqs-2uvzb-5c7fk-rqpzu-g6ihx-o5vvj-vhtey-ufk3z-7ssck-zae # Tommy's Month 18 neurons
           stake_e8s: 208333300000000 # Month 18 Vesting
           memo: 18
           dissolve_delay_seconds: 15768000 # 6 months
           vesting_period_seconds: 47304000 # 18 month
-        - controller: b7k54-w6cqs-2uvzb-5c7fk-rqpzu-g6ihx-o5vvj-vhtey-ufk3z-7ssck-zae # Tommy Mallow's Month 19 neurons
+        - controller: b7k54-w6cqs-2uvzb-5c7fk-rqpzu-g6ihx-o5vvj-vhtey-ufk3z-7ssck-zae # Tommy's Month 19 neurons
           stake_e8s: 208333300000000 # Month 19 Vesting
           memo: 19
           dissolve_delay_seconds: 15768000 # 6 months
           vesting_period_seconds: 49932000 # 19 month
-        - controller: b7k54-w6cqs-2uvzb-5c7fk-rqpzu-g6ihx-o5vvj-vhtey-ufk3z-7ssck-zae # Tommy Mallow's Month 20 neurons
+        - controller: b7k54-w6cqs-2uvzb-5c7fk-rqpzu-g6ihx-o5vvj-vhtey-ufk3z-7ssck-zae # Tommy's Month 20 neurons
           stake_e8s: 208333300000000 # Month 20 Vesting
           memo: 20
           dissolve_delay_seconds: 15768000 # 6 months
           vesting_period_seconds: 52560000 # 20 month
-        - controller: b7k54-w6cqs-2uvzb-5c7fk-rqpzu-g6ihx-o5vvj-vhtey-ufk3z-7ssck-zae # Tommy Mallow's Month 21 neurons
+        - controller: b7k54-w6cqs-2uvzb-5c7fk-rqpzu-g6ihx-o5vvj-vhtey-ufk3z-7ssck-zae # Tommy's Month 21 neurons
           stake_e8s: 208333300000000 # Month 21 Vesting
           memo: 21
           dissolve_delay_seconds: 15768000 # 6 months
           vesting_period_seconds: 55188000 # 21 month
-        - controller: b7k54-w6cqs-2uvzb-5c7fk-rqpzu-g6ihx-o5vvj-vhtey-ufk3z-7ssck-zae # Tommy Mallow's Month 22 neurons
+        - controller: b7k54-w6cqs-2uvzb-5c7fk-rqpzu-g6ihx-o5vvj-vhtey-ufk3z-7ssck-zae # Tommy's Month 22 neurons
           stake_e8s: 208333300000000 # Month 22 Vesting
           memo: 22
           dissolve_delay_seconds: 15768000 # 6 months
           vesting_period_seconds: 57816000 # 22 month
-        - controller: b7k54-w6cqs-2uvzb-5c7fk-rqpzu-g6ihx-o5vvj-vhtey-ufk3z-7ssck-zae # Tommy Mallow's Month 23 neurons
+        - controller: b7k54-w6cqs-2uvzb-5c7fk-rqpzu-g6ihx-o5vvj-vhtey-ufk3z-7ssck-zae # Tommy's Month 23 neurons
           stake_e8s: 208333300000000 # Month 23 Vesting
           memo: 23
           dissolve_delay_seconds: 15768000 # 6 months
           vesting_period_seconds: 60444000 # 23 month
-        - controller: b7k54-w6cqs-2uvzb-5c7fk-rqpzu-g6ihx-o5vvj-vhtey-ufk3z-7ssck-zae # Tommy Mallow's Month 24 neurons
+        - controller: b7k54-w6cqs-2uvzb-5c7fk-rqpzu-g6ihx-o5vvj-vhtey-ufk3z-7ssck-zae # Tommy's Month 24 neurons
           stake_e8s: 208333300000000 # Month 24 Vesting
           memo: 24
           dissolve_delay_seconds: 15768000 # 6 months
