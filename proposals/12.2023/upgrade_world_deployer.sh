@@ -7,7 +7,7 @@ quill sns --canister-ids-file ./sns_canister_ids.json  --pem-file ${PEM_FILE}  m
     
 Proposed changes, features or fixes : 
 1. Upgrade the World version that the World Deployer uses.
-2. World version is refactored with improved handling of actions and configs making it easier for developers. 
+2. Bug fixes in new World version.
 "  \
   --url "https://boomdao.xyz"  \
   --target-canister-id "js5r2-paaaa-aaaap-abf7q-cai" \
