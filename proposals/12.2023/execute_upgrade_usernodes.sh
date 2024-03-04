@@ -1,6 +1,6 @@
 export PEM_FILE="/Users/jarvis/.config/dfx/identity/default/identity.pem"
 export DEVELOPER_NEURON_ID="fa98d03dc1ef9eb4db04f8ce1ced50b7fdd70143e575a507f89775f69f66beac"
-export BLOB="$(didc encode --format blob "(1707743836929808740 : int)")"
+export BLOB="$(didc encode --format blob "(1709540961754830324 : int)")"
 quill sns  --canister-ids-file ./sns_canister_ids.json  --pem-file $PEM_FILE  make-proposal $DEVELOPER_NEURON_ID --proposal "(
     record { 
         title = \"Execute upgrade_usernodes function in WorldHub canister to upgrade UserNode canisters\"; 

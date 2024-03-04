@@ -6,7 +6,7 @@ quill sns --canister-ids-file ./sns_canister_ids.json  --pem-file ${PEM_FILE}  m
   --summary "This proposal upgrades the World Deployer canister. 
     
 Proposed changes, features or fixes : 
-1. Upgrade the World version that the World Deployer uses.
+1. Upgrade the World version that the World Deployer uses to support BOOM GAMING GUILD V1.
 2. Bug fixes in new World version.
 "  \
   --url "https://boomdao.xyz"  \

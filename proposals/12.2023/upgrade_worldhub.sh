@@ -6,7 +6,9 @@ quill sns --canister-ids-file ./sns_canister_ids.json  --pem-file ${PEM_FILE}  m
   --summary "This proposal upgrades the WorldHub canister of the World Protocol.
 
 Proposed changes, features or fixes : 
-1. Upgrade WorldHub canister with the latest UserNode class, to support World's refactoring for better handling of actions and configs. " \
+1. Upgrade WorldHub canister with the latest UserNode class, to support World's refactoring for BOOM GAMING GUILD V1.
+2. WorldHub now contains Asset nodes for Users on-chain assets. 
+3. Additional trivial and composite queries in WorldHub to support BGG V1. " \
   --url "https://boomdao.xyz"  \
   --target-canister-id "j362g-ziaaa-aaaap-abf6a-cai" \
   --wasm-path "./proposals/12.2023/WorldHub.wasm.gz" \
